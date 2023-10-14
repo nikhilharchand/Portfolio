@@ -63,3 +63,27 @@ html {
   box-shadow: 0px 0px 10px 5px rgba(147, 147, 150, 0.148);
 
 }
+
+@media screen and (max-width: 768px) {
+  #hero-img-mine{
+    height: 321px;
+    width: 330px;
+  }
+  
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #hero-img-mine{
+    height: 350px;
+    width: 500px;
+    margin-left: 3rem;
+  }
+  
+}
+@media screen and (min-width: 1024) {
+  #hero-img-mine{
+    height: 350px;
+    width: 400px;
+    margin-left: 3rem;
+  }
+  
+}
