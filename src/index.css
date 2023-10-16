@@ -81,8 +81,8 @@ html {
 }
 @media screen and (min-width: 1024) {
   #hero-img-mine{
-    height: 350px;
-    width: 400px;
+    height: 450px;
+    /* width: 5000px; */
     margin-left: 3rem;
   }
   
