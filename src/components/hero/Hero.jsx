@@ -9,6 +9,7 @@ import { FiDownload } from "react-icons/fi";
 import { TypeAnimation } from "react-type-animation";
 import resumePDF from "../../assets/Resume.pdf";
 import mine from '../../assets/mine.jpg'
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Hero = () => {
   
@@ -79,10 +80,11 @@ const Hero = () => {
         </div>
         <div className="right  top-5 flex-1 flex items-center justify-center md:items-end sm:items-end">
           <div className="relative h-[100%] w-11/12 flex items-center sm:items-end">
-            <img id="hero-img-mine"
-            data-aos="fade-up"
-              className=" h-[76%] border-black w-full object-cover md:h-[95%] md:m-auto sm:m-0"
+            <LazyLoadImage  
+              id="hero-img-mine"
               src={mine}
+              data-aos="fade-up"
+              className=" h-[76%] border-black w-full object-cover md:h-[95%] md:m-auto sm:m-0"
               alt="mine"
             />
           </div>
