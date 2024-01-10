@@ -32,7 +32,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="sm:text-[12px] text-white">
-          | Copyright &copy;  <span>2023  </span> Chetan
+          | Copyright &copy;  <span>2024  </span> Chetan
           <a href="#"></a> |
         </div>
       </div>
