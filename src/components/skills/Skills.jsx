@@ -3,7 +3,7 @@ import ProgressBar from "../../chip/ProgressBar";
 import SkillBox from "../../chip/SkillBox";
 import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
 import {
-  SiTypescript,
+  SiJavascript,
   SiTailwindcss,
   SiFirebase,
   SiMongodb,
@@ -40,18 +40,18 @@ const Skills = () => {
               className="progress flex items-center h-[100%] justify-end md:justify-center"
             >
               <div className=" flex flex-col gap-6  w-3/4  my-5 md:w-[90%]">
-                <ProgressBar logo={<FaReact />} name={"React Js"} value={90} />
+                <ProgressBar logo={<FaReact />} name={"React Js"} value={80} />
                 <ProgressBar logo={<IoLogoHtml5 />} name={"HTML"} value={95} />
-                <ProgressBar logo={<IoLogoCss3 />} name={"CSS"} value={88} />
+                <ProgressBar logo={<IoLogoCss3 />} name={"CSS"} value={85} />
                 <ProgressBar
-                  logo={<SiTypescript />}
-                  name={"TypeScript"}
+                  logo={<SiJavascript />}
+                  name={"JavaScript"}
                   value={80}
                 />
                 <ProgressBar
-                  logo={<SiMaterialui />}
-                  name={"Material UI"}
-                  value={80}
+                  logo={<SiTailwindcss />}
+                  name={"Tailwind"}
+                  value={70}
                 />
               </div>
             </div>

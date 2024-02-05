@@ -14,7 +14,7 @@ const Footer = () => {
           target="_blank"
           data-aos="fade-up" data-aos-duration="1000"
 
-            href="https://www.linkedin.com/in/thakurchetan20/"
+            href="https://www.linkedin.com/in/nikhil-harchand/"
             className="box font-medium text-white   flex items-center justify-center flex-col"
           >
             <FaLinkedinIn className="  text-3xl hover:scale-125 cursor-pointer" />
@@ -24,7 +24,7 @@ const Footer = () => {
           data-aos="fade-up" data-aos-duration="1000"
 
           target="_blank"
-            href="https://github.com/Amcelo13"
+            href="https://github.com/nikhilharchand"
             className="box font-medium text-white   flex items-center justify-center flex-col"
           >
             <FaGithub className="  text-3xl hover:scale-125 cursor-pointer" />
@@ -32,7 +32,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="sm:text-[12px] text-white">
-          | Copyright &copy;  <span>2024  </span> Chetan
+          | Copyright &copy;  <span>2024  </span> Nikhil
           <a href="#"></a> |
         </div>
       </div>

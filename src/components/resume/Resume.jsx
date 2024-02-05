@@ -23,7 +23,7 @@ const Resume = () => {
             className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2"
           >
             <legend className="cursor-pointer w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 bg-black rounded-3xl py-1 px-8 font-semibold text-xl text-white hover:text-black hover:bg-white">
-              Experience
+              Achievment
             </legend>
             <div className=" relative">
               {/* design */}
@@ -35,23 +35,16 @@ const Resume = () => {
               {/* design */}
               <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-black shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl ">
-                  Full Stack Developer
+                  React Js Developer
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base transition-2s hover:scale-95">
-                  Zenmonk Softwares and Services
+                  CipherSchools
                 </span>
                 <span className=" text-[.9rem] font-semibold text-black sm:text-base">
-                  June 2023 - Present
+                  June 2023 - July 2023
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                  Collaborating and contributing to web application development.
-                  Proficient in technologies like Redux.js, Material-UI,
-                  TypeScript, and more. Actively involved in feature
-                  development, bug fixing, and performance enhancement.
-                  Expertise in creating responsive user interfaces and efficient
-                  data management using MongoDB and server side logic using node
-                  and express js. Participating in code reviews to ensure
-                  high-quality code and adherence to best practices.
+                Achieved React.js certification, showcasing proficiency in the popular JavaScript library for building user interfaces. Demonstrated ability to create dynamic and interactive web applications, enhancing user experience and interactivity. Leveraging React's component-based architecture, I've developed scalable and maintainable solutions. This certification reflects dedication to mastering new technologies and a commitment to delivering high-quality projects. It strengthens my portfolio, highlighting expertise in modern web development and adding value to prospective endeavors.
                 </p>
               </div>
             </div>
@@ -75,7 +68,7 @@ const Resume = () => {
               {/* design */}
               <div className=" flex flex-col gap-1 border-2 border-black shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
-                  B.Tech, Computer Science and Engineering
+                  B.Tech, Information Technology
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-600 sm:text-base transition-2s hover:scale-95">
                   Lovely Professional University
@@ -85,7 +78,7 @@ const Resume = () => {
                 </span>
                 <p className=" text-[.9rem] text-justify text-gray-500">
                   Pursued a comprehensive Bachelor of Technology degree with a
-                  focus on Computer Science and Engineering. Gained a strong
+                  focus on Information Technology. Gained a strong
                   academic foundation in programming, algorithms, and software
                   development. Majored in Full Stack Development and gained
                   expertise in JavaScript, npm, and React. learned how to build

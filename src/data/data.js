@@ -1,27 +1,27 @@
 export const data = [
   {
     id: 1,
-    img: 'https://i.pinimg.com/originals/39/a6/2a/39a62a05938d316affe4fc179e36699a.png',
-    title: "Evolve Ecommerce and  Management System",
-    desc: "Evolve - Customer is a versatile app for seamless user experiences. 📱 It offers user signup with various options, secure login, role selection, and organized features for both customers and vendors. 🛒 Enjoy hassle-free shopping, order management, and vendor controls with this comprehensive application. 🛍️📦💼",
-    link: "",
-    git: "https://github.com/Amcelo13/Ecomm_Mega_Project",
+    img: 'https://i.pinimg.com/originals/8e/03/51/8e0351c8f4e92094a0cd58a67a7d1dc5.png',
+    title: "Shopping-Cart with redux toolkit",
+    desc: "Craft your React shopping 🛍️ cart with Redux Toolkit! Simplify state handling, actions, and reducers effortlessly. Boost scalability and maintainability. 🚀",
+    link: "https://redux-toolkit-cart-lac.vercel.app/",
+    git: "https://github.com/nikhilharchand/Redux-toolkit_Cart",
   },
   {
     id: 2,
-    img: 'https://i.pinimg.com/originals/47/08/fb/4708fb4d2d945cc0bd6bec506d052160.jpg',
-    title: "Homeflix Movie App",
-    desc: "The frontend only app that has 🔐- User Authentication using Firebase 🎥- Fetch latest movies using TMDB Database 💵- Payment enabled plans with Stripe Payments(Test Mode)",
-    link: "https://homeflix-build.netlify.app/",
-    git: "https://github.com/Amcelo13/homeflix_build",
+    img: 'https://i.pinimg.com/originals/5e/bb/c5/5ebbc5f88fc70a9e62d7bcec8410a8d9.jpg',
+    title: "Netflix-clone",
+    desc: "The frontend only app that has 🔐- User Authentication using Firebase 🎥- Fetch latest movies using TMDB Database ",
+    link: "https://netflix-clone-gxjg.vercel.app/",
+    git: "https://github.com/nikhilharchand/Netflix-Clone",
   },
   {
     id: 3,
-    img: 'https://i.pinimg.com/originals/87/5e/da/875eda586d4efbbb28a667e86c7c496f.png',
-    title: "Tribe Social and Chat",
-    desc: "A chat 🗨️ and social media app combines messaging, likes ❤️, comments, and notifications for engaging user interactions, fostering connections and facilitating seamless communication in a feature-rich platform.",
-    link: "https://socail-d4427.web.app/",
-    git: "https://github.com/Amcelo13/Day15---Social",
+    img: 'https://i.pinimg.com/originals/7c/6f/08/7c6f08cf206530ba69476399565497fe.png',
+    title: "Golf Animation",
+    desc: "A CSS golf animation ⛳️ that showcases a swinging motion of a golf club, coupled with a rolling golf ball 🏌️‍♂️. Engaging and dynamic for web interfaces. ",
+    link: "https://family-golf-animation.vercel.app/",
+    git: "https://github.com/nikhilharchand/family-GolfAnimation",
   }
   
 ];

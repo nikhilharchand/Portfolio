@@ -8,13 +8,13 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { TypeAnimation } from "react-type-animation";
 import resumePDF from "../../assets/Resume.pdf";
-import mine from '../../assets/mine.jpg'
+import mine2 from '../../assets/mine2.png';
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Hero = () => {
   
   return (
-    <div id="home" className={` bg-gradient-to-r from-gray-300 to-blue-300 `}>
+    <div id="home" className={` bg-gradient-to-r from-blue-300 to-white-200 `}>
       <div className=" container mx-auto pt-5 h-[750px] md:h-[100vh] md:flex-col-reverse sm:h-[780px]  flex sm:flex-col-reverse sm:pt-0 ">
         <div className=" left mt-4 md:mt-0 flex-1 flex flex-col justify-center gap-5 w-1/2 md:w-full md:py-2 sm:py-0">
           <div className="info w-fit flex flex-col items-start justify-center gap-3 sm:gap-2">
@@ -22,12 +22,12 @@ const Hero = () => {
               data-aos="fade-up"
               className=" text-5xl font-bold sm:text-[2rem]"
             >
-              <span className="text-gray-500">Hello, I'm </span><span className="text-black">Chetan Thakur</span>
+              <span className="text-gray-500">Hello, I'm </span><span className="text-black">Nikhil Harcahnd</span>
             </h2>
             <TypeAnimation
               data-aos="fade-up"
               sequence={[
-                "MERN Stack Developer",
+                "Front-End Developer",
                 2000,
                 "Glad To have you here! ",
                 2000,
@@ -58,19 +58,19 @@ const Hero = () => {
               className=" flex gap-5"
             >
               <li>
-                <a href="https://github.com/Amcelo13?tab=repositories" target="_blank">
+                <a href="https://github.com/nikhilharchand?tab=repositories" target="_blank">
                   {" "}
                   <AiFillGithub className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 hover:text-white" />{" "}
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/thakurchetan20/">
+                <a href="https://www.linkedin.com/in/nikhil-harchand/" target="_blank">
                   {" "}
                   <FaLinkedinIn className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 hover:text-white" />{" "}
                 </a>
               </li>
               <li>
-                <a href="https://twitter.com/chetanthakur89" target="_blank">
+                <a href="https://twitter.com/NHarchand2349" target="_blank">
                   {" "}
                   <AiFillTwitterCircle className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 hover:text-white " />{" "}
                 </a>
@@ -78,14 +78,14 @@ const Hero = () => {
             </ul>
           </div>
         </div>
-        <div className="right  top-5 flex-1 flex items-center justify-center md:items-end sm:items-end">
-          <div className="relative h-[100%] w-11/12 flex items-center sm:items-end">
+        <div className="right  top-6 flex-1 flex items-center justify-center md:items-end sm:items-end ">
+          <div className="relative h-[100%] w-10/10 flex items-center sm:items-end ">
             <LazyLoadImage  
-              id="hero-img-mine"
-              src={mine}
+              id="hero-img-mine2"
+              src={mine2}
               data-aos="fade-up"
-              className=" h-[76%] border-black w-full object-cover md:h-[95%] md:m-auto sm:m-0"
-              alt="mine"
+              className=" h-[85%] border-black w-full object-cover md:h-[95%] md:m-auto sm:m-0 rounded-full"
+              alt="mine2"
             />
           </div>
         </div>
